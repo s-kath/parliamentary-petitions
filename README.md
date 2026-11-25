@@ -1,7 +1,5 @@
 # Parliamentary Petitions
 
-# Folders (to add): data, burstiness, gen-auth, rep-auth, signatures
-
 ## Data
 
 ## Code
