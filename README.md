@@ -7,17 +7,17 @@ what factors lead to success in gathering signatures?" by Shivashankari Kathirga
 
 ### Petitions datasets
 Petitions datasets were obtained from the following sites and combined into standardised, reformatted datasets:
--   [Australia](https://www.aph.gov.au/e-petitions): use under [CC BY-NC-ND 4.0 Deed | Attribution-NonCommercial-NoDerivs 4.0 International license](https://www.aph.gov.au/Help/Disclaimer_Privacy_Copyright#c)
+-   [Australia](https://www.aph.gov.au/e-petitions): used under [CC BY-NC-ND 4.0 Deed | Attribution-NonCommercial-NoDerivs 4.0 International license](https://www.aph.gov.au/Help/Disclaimer_Privacy_Copyright#c)
 -   [Canada](https://www.ourcommons.ca/petitions/en/Home/Index): provided under [Open Data initiative](https://www.ourcommons.ca/en/open-data#od)
--   [UK](https://petition.parliament.uk/): use governed by [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) - 'Contains public sector information licensed under the Open Government Licence v3.0.'
+-   [UK](https://petition.parliament.uk/): used under [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) - 'Contains public sector information licensed under the Open Government Licence v3.0.'
 -   [Germany](https://epetitionen.bundestag.de/)
 
 The full names of Australia and Canada authors were removed from datasets and replaced with numeric IDs after the author gender classifications had been derived from author names. In Australia, the metadata theme field was created by extracting the minister portfolio name from petition response files and then performing standardising and cleaning to combine variations of the same portfolio name (e.g. 'attorney general' and 'ag' both become 'attorney general'). In Australia, Canada, and the UK, the keywords used in the burstiness analysis were identified by performing a search of each word in the lowercase combined text of each petition.
 
 ### Canada baby names
 The Canada baby name collections were obtained from the following government sites:
--   [Ontario](https://data.ontario.ca/organization/public-and-business-service-delivery-and-procurement): Use permitted under the [Open Government License - Ontario 1.0](https://www.ontario.ca/page/open-government-licence-ontario). 
--   [Quebec](https://www.donneesquebec.ca/recherche/organization/rrq): Use permitted under [Creative Commons License CC BY 4.0 (Attribution)](https://www.donneesquebec.ca/licence/#cc-by).
+-   [Ontario](https://data.ontario.ca/organization/public-and-business-service-delivery-and-procurement): used under the [Open Government License - Ontario 1.0](https://www.ontario.ca/page/open-government-licence-ontario). 
+-   [Quebec](https://www.donneesquebec.ca/recherche/organization/rrq): used under [Creative Commons License CC BY 4.0 (Attribution)](https://www.donneesquebec.ca/licence/#cc-by).
 
 As the baby name datasets have been updated since the time of analysis, please use the files provided in  `data/canada/author_analysis` when running the code files in this repo. The names datasets were processed and combined into two mutually exclusive male and female name collections by applying a series of filtering and comparative rules to the datasets. The datasets were also reshaped, and anonymising values were replaced with single average numbers to allow for name frequencies to be aggregated and averaged across all years (e.g. where the frequency for a name in a certain year was given as `<5`, this was replaced with 2.5). Data processing of the names is found in: `\gen-auth\canada-baby-names-final.ipynb`. 
 
