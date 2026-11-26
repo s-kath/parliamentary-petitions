@@ -29,5 +29,9 @@ The code to generate the figures, tabular information, and statistical tests in 
 
 In the `gen-auth` folder, the following Jupyter Notebooks _cannot_ be run because they rely on the non-anonymised data (containing petition author names), which is not provided here for privacy reasons: [`autho-name-final`](gen-auth/author-names-final.ipynb) and [`creating-gender-classifications-final`](gen-auth/creating-gender-classifications-final.ipynb). These files have been included to illustrate the process of gender classification. 
 
+## Figures
+
+The figures that are included in the paper can be found in the `figures` folder.
+
 ## Credit
 The signatures analysis builds on code from the [repository](https://github.com/edugalt/StatisticalLaws/tree/main) of ["Statistical Laws in Complex Systems: Combining Mechanistic Models and Data Analysis"](https://link.springer.com/book/10.1007/978-3-031-73164-8) by Eduardo G. Altmann (2024)
