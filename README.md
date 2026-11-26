@@ -27,7 +27,7 @@ The dataset of valence and arousal information for 13,915 English lemmas was tak
 ## Code Files
 The code to generate the figures, tabular information, and statistical tests in the paper can be found in the `burstiness`, `rep-auth`, `signatures`, `temporal`,  `gen-auth`, and  `text-features` folders. The Jupyter Notebooks in the `burstiness`, `rep-auth`, `signatures`, `temporal`, and `text-features` folders can be run with the provided datasets in the `data` folder. 
 
-In the `gen-auth` folder, the following Jupyter Notebooks _cannot_ be run because they rely on the non-anonymised data (containing petition author names), which is not provided here for privacy reasons: [`autho-name-final`](gen-auth/author-names-final.ipynb) and [`creating-gender-classifications-final`](gen-auth/creating-gender-classifications-final.ipynb). These files have been included to illustrate the process of gender classification. 
+In the `gen-auth` folder, the following Jupyter Notebooks _cannot_ be run because they rely on the non-anonymised data (containing petition author names), which is not provided here for privacy reasons: [`author-names-final`](gen-auth/author-names-final.ipynb) and [`creating-gender-classifications-final`](gen-auth/creating-gender-classifications-final.ipynb). These files have been included to illustrate the process of gender classification. 
 
 ## Figures
 
